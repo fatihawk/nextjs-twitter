@@ -1,0 +1,11 @@
+.stack {
+    --gap:10px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.column {
+    flex-direction: column;
+    margin-top: 10px;
+}

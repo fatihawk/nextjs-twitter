@@ -1,0 +1,31 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "icon": "svgr icons -d components/icons --icon --replace-attr-values \"#fff=currentColor\""
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "next": "^10.0.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@storybook/addon-actions": "^6.1.10",
+    "@storybook/addon-essentials": "^6.1.10",
+    "@storybook/addon-links": "^6.1.10",
+    "@storybook/react": "^6.1.10",
+    "@svgr/cli": "^5.5.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "postcss-loader": "^4.1.0",
+    "style-loader": "^2.0.0"
+  }
+}
